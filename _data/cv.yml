@@ -1,0 +1,166 @@
+- name: Experience
+  items:
+    - title: Data Engineer
+      company: Asda
+      dates: Nov 2023 - present
+      image: asda.png
+      color: 6dba46
+      text-color: dark
+    - title: Data Analyst
+      company: Microsoft
+      dates: Nov 2022 - Nov 2023
+      image: microsoft.png
+      color: ffffff
+      text-color: dark
+    - title: Cloud Developer
+      company: Atos
+      dates: Feb 2021 - Oct 2022
+      image: atos.png
+      color: 0073e6
+      text-color: light
+    - title: Graduate Engagement Officer
+      company: E2E
+      dates: Oct 2021 - May 2022
+      image: e2e.png
+      color: ffffff
+      text-color: dark
+    - title: Python Coding Instructor
+      company: TechSpark Academy
+      dates: Oct 2022
+      image: techspark.png
+      color: ffffff
+      text-color: dark
+    - title: Market Intelligence Intern
+      company: Frontiers
+      dates: Jul 2019 - Aug 2019
+      image: frontiers.png
+      color: 001990
+      text-color: light
+    - title: IT Management Intern
+      company: Atos
+      dates: Sep 2018
+      image: atos.png
+      color: 0073e6
+      text-color: light
+    - title: WCM Plant Support Intern
+      company: FCA Fiat Chrysler Automobiles
+      dates: Jul 2018
+      image: fca.png
+      color: ffffff
+      text-color: dark
+    - title: IoT Intern
+      company: SRO Solutions
+      dates: Aug 2017
+      image: sro.png
+      color: ffffff
+      text-color: dark
+- name: Education
+  items:
+    - title: MEng Mechanical Engineering
+      company: Durham University
+      dates: Oct 2016 - Jul 2020
+      image: durham.svg
+      color: 68246d
+      text-color: light
+    - title: International Baccalaureate
+      company: International School of Lausanne
+      dates: Sep 2014 - Jul 2016
+      image: isl.png
+      color: f3e200
+      text-color: dark
+- name: Certifications
+  items:
+    - title: Azure Developer Associate
+      company: Microsoft
+      dates: Sep 2022
+      image: microsoft_associate.svg
+      color: 0064b5
+      text-color: light
+    - title: SAFe 5 Practitioner
+      company: Scaled Agile
+      dates: Apr 2022
+      image: safe.png
+      color: 264263
+      text-color: light
+    - title: Azure Data Scientist Associate
+      company: Microsoft
+      dates: Oct 2021
+      image: microsoft_associate.svg
+      color: 0064b5
+      text-color: light
+    - title: Azure Data Engineer Associate
+      company: Microsoft
+      dates: Aug 2021
+      image: microsoft_associate.svg
+      color: 0064b5
+      text-color: light
+    - title: Azure Data Fundamentals
+      company: Microsoft
+      dates: Jul 2021
+      image: microsoft_fundamentals.svg
+      color: 0064b5
+      text-color: light
+    - title: Azure Fundamentals
+      company: Microsoft
+      dates: March 2021
+      image: microsoft_fundamentals.svg
+      color: 0064b5
+      text-color: light
+# - name: Skills
+#   items:
+#   - title: Python
+#     image:
+#     color:
+#     text-color:
+#   - title: Spark
+#     image:
+#     color:
+#     text-color:
+#   - title: Azure
+#     image:
+#     color:
+#     text-color:
+#   - title: Databricks
+#     image:
+#     color:
+#     text-color:
+#   - title: SQL
+#     image:
+#     color:
+#     text-color:
+#   - title: 
+#     image:
+#     color:
+#     text-color:
+#   - title: Azure DevOps
+#     image:
+#     color:
+#     text-color:
+#   - title: Azure API Management
+#     image:
+#     color:
+#     text-color:
+#   - title: Azure Functions
+#     image:
+#     color:
+#     text-color:
+#   - title: C#
+#     image:
+#     color:
+#     text-color:
+#   - title: Bash
+#     image:
+#     color:
+#     text-color:
+#   - title: Git
+#     image:
+#     color:
+#     text-color:
+#   - title: GitHub
+#     image:
+#     color:
+#     text-color:
+#   - title: GitLab
+#     image:
+#     color:
+#     text-color:
