@@ -7,8 +7,9 @@ source_url: "https://github.com/Willlumm/personal_website"
 remote_theme: willlumm/swiss
 theme_color: asparagus
 
-homepage_image: assets/william_lumme.png
-homepage_image_alt: "Photo of William"
+home_image: 
+  alt: Photo of William
+  src: assets/william_lumme.png
 
 socials:
   - link: github
