@@ -18,7 +18,6 @@ Regular Package:
 
 - A single directory.
 - Contains an `__init__.py` file.
-- Generally recommended.
 
 Namespace Package:
 
@@ -27,14 +26,33 @@ Namespace Package:
 - Allows separately installed subpackages to share a parent package.
 - No `__init__.py` file.
 
+Although it is generally recommended to use regular packages, it can be easy to forget
+the `__init__.py` file.
+
 ## Issues With Implicit Namespace Packages
+
+You can find examples for all of these examples [here]().
 
 ### Not Included In Test Coverage
 
+Consider a project with the following structure:
+
+```
+project/
+    namespace_package/
+        foo.py
+    regular_package/
+        __init__.py
+        bar.py
+tests/
+```
+
+
+
 ### Not Found By `pkgutils.itermodules`
 
-### VSCode Does Not Update Modules When Renaming
-
 ### Hacky `sys.path` Issues
+
+### VSCode Does Not Update Modules When Renaming
 
 ## How Can I Remember To 
