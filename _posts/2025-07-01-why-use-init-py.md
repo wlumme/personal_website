@@ -9,19 +9,23 @@ _Explicit is better than implicit._
 
 ― [The Zen of Python](https://peps.python.org/pep-0020/)
 
-If you've ever looked at a Python codebase containing multiple packages, you may have
-noticed some empty files named `__init__.py`.
+Since Python 3.3, it is possible to create a package without an `__init__.py` file.
+However, that does not mean you should. Here are some problems I have encountered.
 
-A quick Google search (or question for your preferred LLM) will reveal that TODO
+## Regular vs Namespace Packages
 
-Hang on, my imports work just fine without these empty files cluttering my codebase!
+Regular Package:
 
-While Python allows packages to exist without an `__init__.py` as of version TODO, there
-actually 2 different kinds of packages: TODO and Implicit Namespace Packages.
+- A single directory.
+- Contains an `__init__.py` file.
+- Generally recommended.
 
-## What's An Implicit Namespace Package?
+Namespace Package:
 
-
+- A container for subpackages.
+- Subpackages may be found in different locations.
+- Allows separately installed subpackages to share a parent package.
+- No `__init__.py` file.
 
 ## Issues With Implicit Namespace Packages
 
